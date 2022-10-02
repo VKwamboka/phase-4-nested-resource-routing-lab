@@ -5,4 +5,8 @@ class UsersController < ApplicationController
     render json: user, include: :items
   end
 
+  # def create
+
+  # end
+
 end
